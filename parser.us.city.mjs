@@ -42,6 +42,6 @@ let city = datas.reduce((accamulator, data) => {
 
 let txt = city.join('\r\n');
 
-console.log(city, city.length);
+//console.log(city, city.length);
 
 await writeFile(path.resolve() + '/../server/content/us.city.txt', txt);

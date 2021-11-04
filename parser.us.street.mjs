@@ -42,6 +42,6 @@ let street = datas.reduce((accamulator, data) => {
 
 let txt = street.join('\r\n');
 
-console.log(street, street.length);
+//console.log(street, street.length);
 
 await writeFile(path.resolve() + '/../server/content/us.street.txt', txt);
